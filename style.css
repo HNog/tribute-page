@@ -1,0 +1,84 @@
+html {
+	background-image: linear-gradient(
+		to bottom, rgb(227, 204, 245), 
+		rgb(162, 117, 209), 
+		rgb(227, 204, 245), 
+		rgb(227, 204, 245), 
+		rgb(185, 148, 224));
+}
+
+body {
+	font-family: 'Noto Sans', sans-serif;
+	font-size: large;
+}
+
+#title {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.70em;
+	display: flex;
+	justify-content: center;
+	height: 130px;
+}
+
+#title2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.25em;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 30px;
+	font-weight: bold;
+}
+
+img {
+	max-width: 75%;
+	display: block;
+	height: auto;
+	margin: auto;
+}
+
+#image {
+	border-radius: 15px;
+}
+
+#img-caption {
+	display: flex;
+	justify-content: center;
+	font-style: italic;
+	padding-top: 30px;
+	padding-bottom: 45px;
+}
+
+#tribute-info {
+	font-size: 1.2em;
+	text-align: justify;
+	margin-left: 90px;
+	margin-right: 70px;
+	margin-bottom: 50px;
+}
+
+p {
+	line-height: 1.8;
+}
+
+li {
+	line-height: 1.5;
+	margin-bottom: 16px;
+}
+
+#end-quote {
+	font-style: italic;
+	padding-top: 30px;
+	display: flex;
+	justify-content: center;
+}
+
+#author {
+	font-style: italic;
+	padding-bottom: 45px;
+	display: flex;
+	justify-content: center;
+}
+
+h4 {
+	text-align: center;
+}
